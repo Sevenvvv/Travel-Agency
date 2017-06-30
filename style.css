@@ -20,9 +20,21 @@ h1
     color: #444;
 }
 
+h2
+{
+    font-size: 55px;
+    color: #444;
+}
+
 ul
 {
     list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #444;
 }
 
 
@@ -71,4 +83,43 @@ header nav ul li a
     font-weight: bold;
     margin-right: 20px;
 }
+
+
+/*  MAIN IMAGE  */
+
+#main_image
+{
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main_image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0px 40px 0px;
+    margin-bottom: 20px;
+}
+
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-1:hover
+{
+    background: #02b8dd;    
+}
+
+
 
