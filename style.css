@@ -345,3 +345,37 @@ footer h1
 }
 
 
+
+/*  VIDEO : PAGE 2 */
+
+.video-page
+{
+    background-color: #ddd;
+  
+}
+
+iframe
+{
+    position: fixed;
+    left: calc(50% - 280px);
+    top: calc(50% - 158px);
+}
+
+.close
+{
+    color: #444;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-right:25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.close:hover
+{
+    color: aqua;
+}
+
+
